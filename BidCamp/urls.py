@@ -4,4 +4,5 @@ app_name= 'BidCamp'
 urlpatterns = [
     path('', views.index, name='index'),
     path('single/', views.single, name='single'),
+    path('product/', views.product, name='product'),
 ]

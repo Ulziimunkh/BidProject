@@ -9,6 +9,9 @@ def index(request):
 def single(request):
     return render_to_response('single.html', content_type= RequestContext(request))
 
+def product(request):
+    return render_to_response('product.html', content_type= RequestContext(request))
+
 def update(request):
     return render_to_response('update.html', context_type = RequestContext(request))
 

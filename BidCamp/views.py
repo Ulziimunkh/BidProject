@@ -2,7 +2,6 @@ from django.shortcuts import render_to_response
 from django.shortcuts import render
 from django.template import  RequestContext
 from BidCamp.models import *
-from django.views.decorators.csrf import requires_csrf_token, csrf_protect
 import datetime
 
 def index(request):
@@ -37,7 +36,6 @@ def contact(request):
     return render_to_response('contact.html',  RequestContext(request, {}))
 
 
-@csrf_protect
 def checkout(request):
     return render(request,'checkout.html', {})
 

@@ -51,7 +51,7 @@
         <!-- //copyright -->
      <!-- js-files -->
         <!-- jquery -->
-        <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+        <script src="{% static 'js/jquery-2.1.4.min.js' %}"></script>
         <!-- //jquery -->
      <!-- popup modal (for signin & signup)-->
         <script src="{% static 'js/jquery.magnific-popup.js' %}"></script>
@@ -120,7 +120,7 @@
     <!-- flexisel (for special offers) -->
         <script src="{% static 'js/jquery.flexisel.js' %}"></script>
         <script>
-            $(window).on('load', function () {
+            $(window).load(function () {
                 $("#flexiselDemo1").flexisel({
                     visibleItems: 3,
                     animationSpeed: 1000,

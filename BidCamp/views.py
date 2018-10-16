@@ -12,6 +12,48 @@ def single(request):
 def product(request):
     return render_to_response('product.html', content_type= RequestContext(request))
 
+def product2(request):
+    return render_to_response('product2.html', content_type= RequestContext(request))
+
+
+def typography(request):
+    return render_to_response('typography.html', content_type= RequestContext(request))
+
+
+def terms(request):
+    return render_to_response('terms.html', content_type= RequestContext(request))
+
+
+def single2(request):
+    return render_to_response('single2.html', content_type= RequestContext(request))
+
+def payment(request):
+    return render_to_response('payment.html', content_type= RequestContext(request))
+
+
+def contact(request):
+    return render_to_response('contact.html', content_type= RequestContext(request))
+
+
+def checkout(request):
+    return render_to_response('checkout.html', content_type= RequestContext(request))
+
+
+def faqs(request):
+    return render_to_response('faqs.html', content_type= RequestContext(request))
+
+def about(request):
+    return render_to_response('about.html', content_type= RequestContext(request))
+
+def icons(request):
+    return render_to_response('icons.html', content_type= RequestContext(request))
+
+
+def privacy(request):
+    return render_to_response('privacy.html', content_type= RequestContext(request))
+
+
+
 def update(request):
     return render_to_response('update.html', context_type = RequestContext(request))
 

@@ -18,8 +18,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DBNAME = 'bidcamp'
 _MONGODB_USER = 'mongouser'
 _MONGODB_PASSWD = 'password'
-_MONGODB_HOST = 'thehost'
-_MONGODB_NAME = 'thedb'
+_MONGODB_HOST = 'localhost'
+_MONGODB_NAME = 'bidcamp'
 _MONGODB_DATABASE_HOST = \
     'mongodb://%s:%s@%s/%s' \
     % (_MONGODB_USER, _MONGODB_PASSWD, _MONGODB_HOST, _MONGODB_NAME)
